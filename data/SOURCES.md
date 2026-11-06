@@ -11,5 +11,5 @@
 with `uv run python scripts/build_dataset.py --refresh ../docs-rag`.
 
 No personal data and no third-party text is involved. Model weights come from the Hugging Face
-hub (`sentence-transformers/all-MiniLM-L6-v2`, Apache-2.0) and are downloaded to the default
+hub (`cross-encoder/ms-marco-MiniLM-L-6-v2`, Apache-2.0) and are downloaded to the default
 Hugging Face cache, not to this repository.

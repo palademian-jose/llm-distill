@@ -9,7 +9,7 @@ from typing import Literal
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-LLMProvider = Literal["fake", "openrouter", "anthropic", "openai"]
+LLMProvider = Literal["fake", "openrouter", "anthropic", "openai", "student"]
 
 
 class Settings(BaseSettings):
@@ -35,7 +35,7 @@ class Settings(BaseSettings):
     chunk_overlap: int = Field(default=16, ge=0)
 
     # Student
-    student_base_model: str = "sentence-transformers/all-MiniLM-L6-v2"
+    student_base_model: str = "cross-encoder/ms-marco-MiniLM-L-6-v2"
     student_dir: Path = Path("models/s1-minilm")
     onnx_path: Path = Path("models/s1-minilm/model.onnx")
     tfidf_path: Path = Path("models/s2-tfidf.joblib")
