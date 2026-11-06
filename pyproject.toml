@@ -1,0 +1,59 @@
+[project]
+name = "llm-distill"
+version = "0.1.0"
+description = "Distil an LLM answerability check into a fine-tuned small cross-encoder, with an honest accuracy, latency and cost comparison."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [{ name = "palademian-jose" }]
+dependencies = [
+    "anthropic>=2.6.0",
+    "llm-evalops>=0.1.0",
+    "numpy>=2.5.4",
+    "onnx>=1.23.2",
+    "onnxruntime>=1.31.1",
+    "openai>=3.46.0",
+    "pydantic>=2.14.3",
+    "pydantic-settings>=2.16.2",
+    "pyyaml>=6.0.3",
+    "rank-bm25>=0.2.2",
+    "scikit-learn>=1.9.1",
+    "torch>=2.15.0",
+    "transformers>=5.22.2",
+]
+
+[project.scripts]
+llm-distill = "llm_distill.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = ["pytest>=9.1.1", "ruff>=0.17.0"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests", "scripts"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "W", "N", "SIM", "RUF"]
+ignore = ["RUF012"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning", "ignore::FutureWarning", "ignore::UserWarning"]
+markers = ["needs_model: runs only when the Hugging Face model cache exists"]
+
+# CPU-only torch wheels keep CI and fresh clones small. train.py picks CUDA at runtime when the
+# installed torch build has it (see README, "Training on a GPU").
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+llm-evalops = { path = "../llm-evalops", editable = true }

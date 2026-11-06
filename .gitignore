@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[oc]
+/build/
+/dist/
+*.egg-info
+/.pytest_cache/
+/.ruff_cache/
+/.coverage
+/htmlcov/
+/.venv/
+
+# Secrets and local config
+/.env
+
+# Runtime artifacts: weights and exports are rebuilt by `make train`
+/models/
+/data/teacher_labels.jsonl
+/data/raw/
+/reports/*.json
+!/reports/baseline.json
+/reports/gate.md
