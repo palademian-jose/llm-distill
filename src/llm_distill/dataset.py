@@ -117,10 +117,19 @@ def _positive_chunks(q: Question, chunks: list[Chunk]) -> list[Chunk]:
 
 
 def _covers_answer(q: Question, chunk: Chunk) -> bool:
-    """True when the chunk contains the answer, so it must not be used as a negative."""
-    if q.refuse or chunk.doc_path != q.doc_path:
+    """True when the chunk contains the answer, so it must not be used as a negative.
+
+    The answer phrase is checked in every document: the handbook repeats some facts (for
+    example the release-train schedule appears on two pages), and such a chunk would be a
+    mislabelled negative.
+    """
+    if q.refuse:
         return False
-    if q.answer_line is not None and chunk.start_line <= q.answer_line <= chunk.end_line:
+    if (
+        chunk.doc_path == q.doc_path
+        and q.answer_line is not None
+        and chunk.start_line <= q.answer_line <= chunk.end_line
+    ):
         return True
     return bool(q.answer_phrase) and _norm(q.answer_phrase or "") in _norm(chunk.text)
 
