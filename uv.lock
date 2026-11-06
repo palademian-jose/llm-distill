@@ -397,6 +397,7 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "anthropic" },
+    { name = "joblib" },
     { name = "llm-evalops" },
     { name = "numpy" },
     { name = "onnx" },
@@ -407,6 +408,7 @@ dependencies = [
     { name = "pyyaml" },
     { name = "rank-bm25" },
     { name = "scikit-learn" },
+    { name = "scipy" },
     { name = "torch", version = "2.15.0", source = { registry = "https://download.pytorch.org/whl/cpu" }, marker = "sys_platform == 'darwin'" },
     { name = "torch", version = "2.15.0+cpu", source = { registry = "https://download.pytorch.org/whl/cpu" }, marker = "sys_platform != 'darwin'" },
     { name = "transformers" },
@@ -421,6 +423,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "anthropic", specifier = ">=2.6.0" },
+    { name = "joblib", specifier = ">=1.6.0" },
     { name = "llm-evalops", editable = "../llm-evalops" },
     { name = "numpy", specifier = ">=2.5.4" },
     { name = "onnx", specifier = ">=1.23.2" },
@@ -431,6 +434,7 @@ requires-dist = [
     { name = "pyyaml", specifier = ">=6.0.3" },
     { name = "rank-bm25", specifier = ">=0.2.2" },
     { name = "scikit-learn", specifier = ">=1.9.1" },
+    { name = "scipy", specifier = ">=1.18.1" },
     { name = "torch", specifier = ">=2.15.0", index = "https://download.pytorch.org/whl/cpu" },
     { name = "transformers", specifier = ">=5.22.2" },
 ]
