@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 def _git(repo: Path, *args: str) -> str:
-    out = subprocess.run(  # noqa: S603 - fixed argv, no shell
+    out = subprocess.run(
         ["git", "-C", str(repo), *args], capture_output=True, text=True, check=True
     )
     return out.stdout.strip()
