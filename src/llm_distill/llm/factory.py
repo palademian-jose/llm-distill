@@ -24,6 +24,10 @@ def get_client(settings: Settings | None = None, *, role: str = "cheap") -> LLMC
         "cheap": settings.cheap_model,
     }.get(role, settings.cheap_model)
 
+    if provider == "student":
+        from llm_distill.client import student_client
+
+        return student_client(settings)
     if provider == "openrouter":
         if not settings.openrouter_api_key:
             raise RuntimeError("LLM_PROVIDER=openrouter but OPENROUTER_API_KEY is not set")
