@@ -247,7 +247,7 @@ def _ms(x: float | None) -> str:
 
 
 def _usd(x: float | None) -> str:
-    return "n/a" if x is None else f"${x:.5f}"
+    return "n/a" if x is None else f"${x:.6f}"
 
 
 def render_tables(summary: dict[str, Any]) -> str:
