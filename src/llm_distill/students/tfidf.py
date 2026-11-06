@@ -6,6 +6,7 @@ cross-encoder but only through bag-of-words statistics.
 
 from __future__ import annotations
 
+import itertools
 from collections.abc import Sequence
 from pathlib import Path
 
@@ -21,7 +22,7 @@ N_DENSE = 7
 
 
 def _bigrams(tokens: list[str]) -> set[tuple[str, str]]:
-    return set(zip(tokens, tokens[1:], strict=False))
+    return set(itertools.pairwise(tokens))
 
 
 class TfidfStudent:
