@@ -1,0 +1,37 @@
+{
+  "pairs": 3322,
+  "questions": 222,
+  "positives": 214,
+  "splits": {
+    "train": {
+      "pairs": 2319,
+      "questions": 155,
+      "positives": 149,
+      "kinds": {
+        "positive": 149,
+        "hard_negative": 1240,
+        "easy_negative": 930
+      }
+    },
+    "val": {
+      "pairs": 494,
+      "questions": 33,
+      "positives": 32,
+      "kinds": {
+        "positive": 32,
+        "hard_negative": 264,
+        "easy_negative": 198
+      }
+    },
+    "test": {
+      "pairs": 509,
+      "questions": 34,
+      "positives": 33,
+      "kinds": {
+        "positive": 33,
+        "hard_negative": 272,
+        "easy_negative": 204
+      }
+    }
+  }
+}
