@@ -1,0 +1,16 @@
+# Regression gate thresholds, read by `evalkit gate` (llm-evalops): `make gate` and the CI job.
+# The candidate is the S1 ONNX student on the held-out test split (reports/eval-latest.json);
+# the baseline is reports/baseline.json, a local run committed on purpose.
+# min / max are absolute bounds on the candidate; max_drop (higher is better) and
+# max_increase (lower is better) bound the change against the baseline.
+# Latency and cost bounds are loose absolute limits: CI runners are not the machine that
+# produced the baseline, so tight latency drift limits would flap.
+min_cases: 400
+metrics:
+  accuracy: {min: 0.97, max_drop: 0.01}
+  f1: {min: 0.90, max_drop: 0.04}
+  recall: {min: 0.90, max_drop: 0.05}
+  agreement_with_teacher: {min: 0.95, max_drop: 0.03}
+  p95_latency_ms: {max: 100.0}
+  cost_per_1k_usd: {max: 0.01}
+  size_mb: {max: 150.0}

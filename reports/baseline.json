@@ -1,0 +1,4613 @@
+{
+  "run_id": "distill-20261106T201550",
+  "commit": "7b7c1db",
+  "timestamp": "2026-11-06T20:15:50Z",
+  "provider": "fake",
+  "model": "s1-minilm-onnx",
+  "metrics": {
+    "accuracy": 0.9960707269155207,
+    "f1": 0.9705882352941176,
+    "precision": 0.9428571428571428,
+    "recall": 1.0,
+    "agreement_with_teacher": 0.9783889980353635,
+    "p50_latency_ms": 17.2753999941051,
+    "p95_latency_ms": 22.128920012619346,
+    "p95_latency_ms_batch32": 20.51225562536274,
+    "cost_per_1k_usd": 0.0004736522156977213,
+    "size_mb": 90.977772,
+    "teacher_accuracy": 0.9783889980353635,
+    "teacher_f1": 0.8571428571428571,
+    "s2_tfidf_accuracy": 0.9842829076620825,
+    "s2_tfidf_f1": 0.8918918918918919,
+    "s1_torch_accuracy": 0.9960707269155207,
+    "s1_torch_f1": 0.9705882352941176
+  },
+  "cases": [
+    {
+      "id": "g-0004::0fc6859ede",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.29879997158423,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0004::1908e27520",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.684299970511347,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0004::81a36f0724",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.720899967476726,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0004::9c042beebd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.969799984712154,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0004::6fffe85291",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.38660000450909,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0004::b2ef18373c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.112399959936738,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0004::5760a2ae43",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.678699990734458,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0004::875d27e9a5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.24719994328916,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0004::c1519780b5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.407299993559718,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0004::7623eca4d1",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.374699956737459,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0004::5dcd88f141",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.46239996748045,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0004::fa1f4862f4",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.82360003562644,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0004::beb18ffde9",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.086000028531998,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0004::c95adc11fe",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.15429999260232,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0004::0240eb983d",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.623399972449988,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0008::9c042beebd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.043700002133846,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0008::385b977b05",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.1701000072062,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0008::3f26be8c13",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.687999987974763,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0008::1908e27520",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.936999999918044,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0008::0fc6859ede",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.205199983436614,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0008::c1519780b5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.15240004705265,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0008::56719579de",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.48870000988245,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0008::dd1540f576",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.032300001010299,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0008::4994da84b3",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.01619995664805,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0008::8cee536014",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.739999976474792,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0008::fdcca8d0f0",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.017400034703314,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0008::5708b07125",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.87870000023395,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0008::10c5ab1800",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.39380005467683,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0008::e7a25079ef",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.698700020555407,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0008::15289feeca",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.350299993064255,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0019::823902c280",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.178199995309114,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0019::201e5da778",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.220600010361522,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0019::132cc0e7c5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.399399991612881,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0019::52e91d869f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.00600004894659,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0019::82bb44c471",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.85739998659119,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0019::f17fdbd6ea",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.45820002583787,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0019::fa1f4862f4",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.73380000749603,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0019::fe114dd8ab",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.308000035583973,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0019::3e13372cfb",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.877000008709729,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0019::93a8ce4d1a",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.22560004843399,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0019::d488a0e543",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.548699975013733,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0019::3e25198a32",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.341399968136102,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0019::7f1a1b503f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.204900002572685,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0019::d40666dee0",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.361999987158924,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0019::80b50d8108",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.75649999640882,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0022::132cc0e7c5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.580499984323978,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0022::201e5da778",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.12159995501861,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0022::52e91d869f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.741199964191765,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0022::823902c280",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.411400003358722,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0022::106b8376fe",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.75889998720959,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0022::37a8b3a983",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.318399998359382,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0022::b2406062bc",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.632799979764968,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0022::9420c76f1f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.360599959734827,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0022::146f219262",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.097699975129217,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0022::8affcff039",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.104800038505346,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0022::427c7f9163",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.33229997707531,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0022::5708b07125",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.894999960437417,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0022::af17365cc9",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.850100010633469,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0022::935e2f5573",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.59129997016862,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0022::4678892ab8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.48010000726208,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0033::e56663d24a",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.130100009031594,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0033::975be11cae",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.344200041610748,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0033::417dd42e4f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.632800011895597,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0033::080b5bc0f8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.425800033379346,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0033::fdcca8d0f0",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.44439997896552,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0033::5666ef0efa",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.006599984597415,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0033::8b631cecae",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 10.417999990750104,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0033::20c683cf85",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.691799974069,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0033::9d227dffb4",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.628799960017204,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0033::b901ce8a1c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.668600008822978,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0033::a1a7794b01",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.563599982764572,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0033::ec0aeefa9b",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.005200036801398,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0033::dd1540f576",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.484600010793656,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0033::29580523e0",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.936300005298108,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0033::4ae98ed6c9",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 9.682599978987128,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0034::080b5bc0f8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.608400000724941,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0034::975be11cae",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.792200044728816,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0034::5666ef0efa",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.428499948233366,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0034::417dd42e4f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.045099960640073,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0034::71f8809e65",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.593299980740994,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0034::fdcca8d0f0",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.211199949495494,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0034::aae918a01a",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.754499964416027,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0034::5dcd88f141",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.836799987591803,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0034::51345f71e9",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.17340003233403,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0034::15cfdc4416",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.221400016453117,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0034::b901ce8a1c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.664399976842105,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0034::56719579de",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.744000033009797,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0034::ed4dd77b60",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.25059999525547,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0034::8f2a226b33",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.206699958071113,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0034::9b4bca67ce",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.46830000774935,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0038::5dcd88f141",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.903199969325215,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0038::23dec70d68",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.26089998940006,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0038::51345f71e9",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.956599957775325,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0038::e56663d24a",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.81940004043281,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0038::417dd42e4f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.598800022620708,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0038::975be11cae",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.67570003075525,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0038::af17365cc9",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.486499977763742,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0038::7407ebc0c2",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.444199977442622,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0038::aae918a01a",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.69050004845485,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0038::146f219262",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.7210000064224,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0038::9e691dc58c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 10.891699988860637,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0038::ce51969839",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.65609996113926,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0038::a359a4f570",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.001199990976602,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0038::0b136e89cd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.99709999654442,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0038::2e2a9dbace",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.33970003342256,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0048::fe114dd8ab",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.05370000936091,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0048::f17fdbd6ea",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.449700040742755,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0048::2e2a9dbace",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.215600019786507,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0048::d1a5138170",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.00459998473525,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0048::06ce555c2c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.454700015950948,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0048::23dec70d68",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.35580000281334,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0048::7f1a1b503f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.873399992007762,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0048::3e13372cfb",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.47730001807213,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0048::b3af00ae75",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.671599994879216,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0048::704fc2475d",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.06259995000437,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0048::c851f8e80d",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.687799991108477,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0048::17ea486608",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.905900011304766,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0048::41a61e62d8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.43660000525415,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0048::51345f71e9",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.436100021470338,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0048::240d704afc",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.274500034749508,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0055::d2e596deeb",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.00260002305731,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0055::848ed626db",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.42380001815036,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0055::1fc43b73bd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.923799994401634,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0055::dba3b890a3",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.265899990685284,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0055::af17365cc9",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.204399983398616,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0055::7588fb8666",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.480499962810427,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0055::176f9ce855",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.062599977478385,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0055::278711f06d",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.189600013196468,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0055::9e691dc58c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.55789999756962,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0055::00dab12208",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.140099985525012,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0055::9c042beebd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.944700037129223,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0055::fc180f01c9",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.53739999467507,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0055::d11585008e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.175500022247434,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0055::67335c1897",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 9.702100011054426,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0055::8f2a226b33",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.840599996503443,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0058::bb73087e8c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.13970003463328,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0058::4ae98ed6c9",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 9.356499998830259,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0058::23e193c5fc",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.093500048853457,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0058::4678892ab8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.14529999298975,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0058::20c683cf85",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.366300045978278,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0058::8b369c3f31",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.38970000203699,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0058::1735988c2c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.126900016795844,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0058::52e91d869f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.671299977228045,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0058::7448ca28bc",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.601199998054653,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0058::17373c6269",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.891800004988909,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0058::dba3b890a3",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.1521999980323,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0058::0b136e89cd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.482899959664792,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0058::d40666dee0",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.216899998951703,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0058::14b9953600",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.841199990361929,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0058::848ed626db",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.743100015446544,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0060::23e193c5fc",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.868600024376065,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0060::40be79979e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.579000035766512,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0060::1735988c2c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.55890002520755,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0060::20c683cf85",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.020099970977753,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0060::bb73087e8c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.108599972445518,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0060::4ae98ed6c9",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 8.3576999604702,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0060::ef3348f635",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.473399988375604,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0060::8b369c3f31",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.180099977646023,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0060::080b5bc0f8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.59670000663027,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0060::975be11cae",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.408999974373728,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0060::417dd42e4f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.11229999596253,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0060::bc13ffaf87",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.842400019522756,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0060::8cec903be5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.646000043489039,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0060::5666ef0efa",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.131200012750924,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0060::41a61e62d8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.304100011941046,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0067::3f26be8c13",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.015500036999583,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0067::f6e32ea13b",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.25219999672845,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0067::704fc2475d",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.510500042699277,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0067::906aff8a05",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.812599983997643,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0067::132cc0e7c5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.872700008098036,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0067::20c683cf85",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.2753999941051,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0067::4678892ab8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.52040001237765,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0067::30b514797e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.767699969932437,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0067::1d4e67848c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.095799976028502,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0067::4994da84b3",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.328399979509413,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0067::5708b07125",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.981499989517033,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0067::3553b55c8e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.959200020413846,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0067::23e193c5fc",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.6899000024423,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0067::c1519780b5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.16109997080639,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0067::ce51969839",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.375999949872494,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0068::385b977b05",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.872200019657612,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0068::ce51969839",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.804199982900172,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0068::504e3e6eed",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.803799969144166,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0068::30b514797e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.736900047864765,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0068::67335c1897",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.127899982966483,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0068::b3af00ae75",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.647799977567047,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0068::9c042beebd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.818899999838322,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0068::6fffe85291",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.81449996633455,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0068::20c683cf85",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.208299996331334,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0068::adf8dd841f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.97200002754107,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0068::6d1ad01cc7",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.35570003418252,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0068::6e6f2617a6",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.267800015863031,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0068::4d569b26e2",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.09309999225661,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0068::93a8ce4d1a",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.322099979035556,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0068::0fc6859ede",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.158500009216368,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0071::a1a7794b01",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 9.61119995918125,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0071::8affcff039",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.77650002622977,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0071::8f2a226b33",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.930899974890053,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0071::3f26be8c13",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 10.474600014276803,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0071::4a472571cd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.960900033358485,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0071::4c50800589",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.694800001569092,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0071::30b514797e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.09460002509877,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0071::d488a0e543",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.621500005479902,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0071::20c683cf85",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.127799965441227,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0071::ec0aeefa9b",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.820299978367984,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0071::08bae9849a",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.740400042384863,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0071::977106e0b2",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.038500010035932,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0071::176f9ce855",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.90790001116693,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0071::fdcca8d0f0",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.4812000002712,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0071::080b5bc0f8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.06080000055954,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0075::15289feeca",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.473500010557473,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0075::0240eb983d",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 9.95479995617643,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0075::d11585008e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.87670000642538,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0075::3f26be8c13",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.475599989760667,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0075::67335c1897",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 10.272099985741079,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0075::dd1540f576",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.018200020771474,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0075::977106e0b2",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.045100023504347,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0075::9c042beebd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.822600049432367,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0075::f7a7e5d3b6",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.49479997670278,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0075::3b7e73f4c8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.689600004814565,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0075::823902c280",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.612299972213805,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0075::469abfe8f1",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.52269999915734,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0075::3cd03c390c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.504900001455098,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0075::6c7c217229",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.780099958647043,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0075::5708b07125",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.343499962706119,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0076::0240eb983d",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.15199999185279,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0076::b3af00ae75",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.3095000423491,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0076::977106e0b2",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.351800019852817,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0076::80b50d8108",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.03649998549372,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0076::10c5ab1800",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.128100010566413,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0076::8affcff039",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.569699980318546,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0076::67335c1897",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 10.025599971413612,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0076::9c09ca5895",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.234699985943735,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0076::c851f8e80d",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.763999999966472,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0076::704fc2475d",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.65379999112338,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0076::3e4cf1344c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.499699977226555,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0076::7407ebc0c2",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.0240000160411,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0076::dba3b890a3",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.869899980723858,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0076::310141be74",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.97180003207177,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0076::1f29e9c780",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.544600011315197,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0111::17ea486608",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.938800007570535,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0111::a1c3e286f5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.384700032882392,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0111::0dbc4a6ddd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.189099998679012,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0111::dba3b890a3",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.28419999219477,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0111::514c3fb2f7",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.697199993766844,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0111::6f37652943",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.908900012727827,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0111::dc05de642e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.58110003033653,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0111::23d42b3bb4",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.683499984443188,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0111::20c683cf85",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.25780002400279,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0111::c0a3f2ecad",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.87120000598952,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0111::704fc2475d",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.8552000480704,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0111::906aff8a05",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.622399990912527,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0111::23e193c5fc",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.413300002459437,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0111::3553b55c8e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.45179998781532,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0111::2e2a9dbace",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.181599983014166,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0112::9b4bca67ce",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.93960003508255,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0112::0dbc4a6ddd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.795699971728027,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0112::a1c3e286f5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.598600015044212,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0112::23d42b3bb4",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 33.53469999274239,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0112::f3dd6cdb0e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.884699987713248,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0112::dc05de642e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.319599970709532,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0112::83ee7f80e5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.44899996649474,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0112::20c683cf85",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.33470000140369,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0112::080b5bc0f8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.829000007826835,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0112::1d2527b246",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.079499994404614,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0112::56719579de",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.95529996464029,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0112::d2e596deeb",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.988000002223998,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0112::ed4dd77b60",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.20460000494495,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0112::7588fb8666",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.65200005704537,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0112::81a36f0724",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.76139998016879,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0116::3b7e73f4c8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.523000048939139,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0116::e611c419c3",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 8.935899997595698,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0116::1e4da4811d",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 10.605000017676502,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0116::29580523e0",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.716399971395731,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0116::7623eca4d1",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.921599999070168,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0116::b901ce8a1c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.02820001123473,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0116::2e2a9dbace",
+      "scores": {
+        "correct": false
+      },
+      "passed": false,
+      "latency_ms": 21.907299989834428,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0116::2eb7c47b9e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.198000008240342,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0116::b1f1edfa78",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.23999994667247,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0116::00dab12208",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.556799978483468,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0116::eca7281ecd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.485499996226281,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0116::148df2576c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.216899992898107,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0116::0fc6859ede",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.908300014212728,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0116::201e5da778",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.71009999094531,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0116::176f9ce855",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.776300020050257,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0137::3fea67b183",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.535500032361597,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0137::c411b9247b",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.001299987081438,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0137::bde2919476",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.750499970745295,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0137::a6fb0b2017",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.07879995694384,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0137::146f219262",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.273699976503849,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0137::15cfdc4416",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.905500034336,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0137::404db62dd1",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.36600002227351,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0137::30b514797e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.723000000230968,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0137::3e13372cfb",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.031700001098216,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0137::b2406062bc",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.683700007386506,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0137::fdcca8d0f0",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.916800036095083,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0137::ed4dd77b60",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.82570001948625,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0137::4a472571cd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.426300005055964,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0137::7623eca4d1",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.94540004245937,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0137::9c042beebd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.633199982810766,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0156::427c7f9163",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 23.095599957741797,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0156::8cec903be5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.997299982700497,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0156::6f37652943",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.267300016712397,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0156::86c4abfba2",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.41170004243031,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0156::da079ddd0f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 9.511400014162064,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0156::b3af00ae75",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.993300021160394,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0156::504e3e6eed",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.913600037805736,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0156::173f191c31",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.690799998585135,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0156::ef3348f635",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.580500036478043,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0156::15289feeca",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.382899987045676,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0156::38858754ca",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.916400043759495,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0156::beb18ffde9",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.541900007519871,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0156::0b136e89cd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.625999964773655,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0156::e47429936e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.777699983213097,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0156::f6c2739ce0",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.846200039144605,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0165::9bd93b18a8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.300200008321553,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0165::5760a2ae43",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.170200044754893,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0165::c1519780b5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.946700004860759,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0165::805109546b",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 23.090500035323203,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0165::e7f5e06951",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 10.393999982625246,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0165::a359a4f570",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.211300019174814,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0165::7407ebc0c2",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.192099989391863,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0165::3f26be8c13",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.883500032126904,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0165::bc13ffaf87",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.94100002432242,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0165::ef3348f635",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.87580000422895,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0165::4a472571cd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.78990000113845,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0165::f3dd6cdb0e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.78209997387603,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0165::469abfe8f1",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.322899991180748,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0165::310141be74",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.998300022445619,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0165::9b4bca67ce",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.08730001701042,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0167::5760a2ae43",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.151600008830428,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0167::e7f5e06951",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.45010001771152,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0167::c1519780b5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.743199968710542,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0167::9bd93b18a8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.798200006131083,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0167::a359a4f570",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.966499985661358,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0167::7407ebc0c2",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.20309999352321,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0167::b2ef18373c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.243699970189482,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0167::f6e32ea13b",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.07560000149533,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0167::5708b07125",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.44719999562949,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0167::8dc322a196",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.97929998813197,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0167::fe114dd8ab",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.96629997342825,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0167::9024394ddd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.180099982302636,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0167::7cb189558e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.80710000032559,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0167::eca7281ecd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.178599966224283,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0167::83ee7f80e5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.352199975401163,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0171::f6c2739ce0",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.029699981212616,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0171::c1519780b5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.800399949308485,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0171::875d27e9a5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.5854000155814,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0171::5760a2ae43",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.713700002990663,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0171::2448644a6f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.104199997149408,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0171::441aeb89be",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.670599976554513,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0171::41a61e62d8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.792000033892691,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0171::dc0bf97811",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.144999995362014,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0171::1fc43b73bd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.37760001560673,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0171::3e13372cfb",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.63850001245737,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0171::417dd42e4f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.205200041644275,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0171::3e25198a32",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.065500020980835,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0171::d2e596deeb",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.201800026465207,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0171::4c50800589",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.930200000293553,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0171::0b136e89cd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.7512999875471,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0176::30b514797e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.384600010700524,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0176::e7a25079ef",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.770399995148182,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0176::82bb44c471",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.51380004780367,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0176::3f26be8c13",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.413399981800467,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0176::87b2e61364",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.860499993432313,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0176::ce51969839",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.598600025754422,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0176::4c50800589",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.610099986195564,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0176::935e2f5573",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 24.012700014282018,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0176::52e91d869f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.741500018630177,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0176::848ed626db",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.01349996821955,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0176::67335c1897",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.092499946244061,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0176::139028ad6c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.450600010808557,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0176::15289feeca",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.74639998236671,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0176::2e2a9dbace",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.753500004298985,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0176::b1f1edfa78",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.581600044853985,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0188::8b631cecae",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 9.237100020982325,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0188::ef3348f635",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.681100013665855,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0188::310141be74",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.477900028694421,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0188::fa1f4862f4",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.91580001777038,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0188::3e25198a32",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 9.645399986766279,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0188::504e3e6eed",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.554699993226677,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0188::c1519780b5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.952800003811717,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0188::3b7e73f4c8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.6651999829337,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0188::20c683cf85",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.510800040327013,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0188::87470d5fa6",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.562199976760894,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0188::ed4dd77b60",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.306399965193123,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0188::cb39a4e07c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.891399995889515,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0188::789a30bb28",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.162700024433434,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0188::5760a2ae43",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.06209999974817,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0188::7623eca4d1",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.71259995782748,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0191::d40666dee0",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.776299961842597,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0191::7588fb8666",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.577600014396012,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0191::d488a0e543",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.55060000019148,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0191::af17365cc9",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 10.939200001303107,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0191::6d1ad01cc7",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.252800007350743,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0191::176f9ce855",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.314799987711012,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0191::848ed626db",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.834499965421855,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0191::f6e32ea13b",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.167099952232093,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0191::d2e596deeb",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.847299957182258,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0191::b1f1edfa78",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.10659997863695,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0191::23dec70d68",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.033800006378442,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0191::1fc43b73bd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.501500049140304,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0191::805109546b",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.032600012607872,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0191::c851f8e80d",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.686799994204193,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0191::c95adc11fe",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.677100052125752,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0195::4c50800589",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.615400000475347,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0195::8b369c3f31",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.73030004510656,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0195::1735988c2c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.42219997383654,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0195::8affcff039",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.59440001519397,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0195::789a30bb28",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.772499963641167,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0195::c95adc11fe",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.073600007686764,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0195::e7a25079ef",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.11020003212616,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0195::e56663d24a",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.343000021763146,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0195::ef3348f635",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.148699976038188,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0195::9420c76f1f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.47100000688806,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0195::310141be74",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 10.857400018721819,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0195::1fc43b73bd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.071100031491369,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0195::b3af00ae75",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.897299977950752,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0195::6c7c217229",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.796099985484034,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0195::82bb44c471",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 10.474500013515353,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0196::1735988c2c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.768400001339614,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0196::fe114dd8ab",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.584099994972348,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0196::e56663d24a",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.71420004358515,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0196::c95adc11fe",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.63869999255985,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0196::ed4dd77b60",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.560399989131838,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0196::417dd42e4f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.601700007915497,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0196::ef3348f635",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.682500045746565,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0196::c0a3f2ecad",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.527999985963106,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0196::504e3e6eed",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.04640001198277,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0196::805109546b",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.57349997246638,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0196::3b7e73f4c8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.413500019349158,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0196::08bae9849a",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.938400021288544,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0196::240d704afc",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.135900027118623,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0196::106b8376fe",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.872000012081116,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0196::41a61e62d8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.639400003943592,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0197::8affcff039",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.16490003047511,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0197::4c50800589",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.612900007516146,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0197::eca7281ecd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.129399999044836,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0197::e56663d24a",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 25.84359998581931,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0197::d1a5138170",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.974900028202683,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0197::2e2a9dbace",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.72629999788478,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0197::0dbc4a6ddd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.562600048724562,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0197::c95adc11fe",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.954999993089586,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0197::8b369c3f31",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.788999994285405,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0197::4d569b26e2",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.52469999762252,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0197::87b2e61364",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.409700031857938,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0197::122f1ade09",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.060400012880564,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0197::bb73087e8c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.83319999696687,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0197::52e91d869f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.177899950183928,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "g-0197::adf8dd841f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.318299976177514,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0006::7588fb8666",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.227200023829937,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0006::af17365cc9",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 10.295500047504902,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0006::d2e596deeb",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.013200008776039,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0006::278711f06d",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.365699978545308,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0006::dba3b890a3",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.929700002539903,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0006::d488a0e543",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.957900016568601,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0006::6d1ad01cc7",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.046900011133403,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0006::d40666dee0",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.72399998176843,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0006::514c3fb2f7",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.95419998234138,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0006::2eb7c47b9e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.570200016256422,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0006::15289feeca",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.40580000821501,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0006::06ce555c2c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 11.210900032892823,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0006::67335c1897",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 9.440099995117635,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0006::1fc43b73bd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 14.812399982474744,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0006::c1519780b5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.668100000359118,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0007::4994da84b3",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.274599998723716,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0007::c01f938443",
+      "scores": {
+        "correct": false
+      },
+      "passed": false,
+      "latency_ms": 11.920500022824854,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0007::17373c6269",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 15.91680001001805,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0007::21a740fda6",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.231800022069365,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0007::14b9953600",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.587100034579635,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0007::9420c76f1f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.192600019276142,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0007::bc13ffaf87",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.150199987459928,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0007::fe114dd8ab",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.15399995818734,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0007::b4befbb7e6",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.679199999198318,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0007::2448644a6f",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.130699998233467,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0007::e7f5e06951",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 9.462300047744066,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0007::23c81232c0",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 9.624700003769249,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0007::28f9826896",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.49010004196316,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0007::ce160a0b63",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.399499975610524,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0007::bb73087e8c",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.679700003005564,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0009::935e2f5573",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.545000025071204,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0009::15cfdc4416",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.48300002934411,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0009::8affcff039",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.531400001142174,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0009::4a472571cd",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.14250000845641,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0009::38858754ca",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.78240002831444,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0009::41a61e62d8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.240500014740974,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0009::441aeb89be",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.061699996702373,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0009::e7a25079ef",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 22.19280001008883,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0009::789a30bb28",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.978699983563274,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0009::e271de36ee",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 9.77399997645989,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0009::2eb7c47b9e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 18.614400003571063,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0009::080b5bc0f8",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.633699997328222,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0009::93a8ce4d1a",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.221600007265806,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0009::848ed626db",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.266199992969632,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "h-0009::122f1ade09",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.93639997392893,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "r-0005::90204ffd3a",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.245000006165355,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "r-0005::514c3fb2f7",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.762199975550175,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "r-0005::2d41fb5beb",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.919700026046485,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "r-0005::a1a7794b01",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 9.59800003329292,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "r-0005::875d27e9a5",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 16.492100025061518,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "r-0005::33d99ff1b2",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.574299999978393,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "r-0005::6d1ad01cc7",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 13.86169996112585,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "r-0005::40be79979e",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.03549997182563,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "r-0005::7588fb8666",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 17.70220004254952,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "r-0005::3fea67b183",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 21.45220001693815,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "r-0005::e611c419c3",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 10.595100000500679,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "r-0005::2a80e09e89",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 12.21289997920394,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "r-0005::a6fb0b2017",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 20.52930003264919,
+      "cost_usd": 4.736522156977213e-07
+    },
+    {
+      "id": "r-0005::6f37652943",
+      "scores": {
+        "correct": true
+      },
+      "passed": true,
+      "latency_ms": 19.092299975454807,
+      "cost_usd": 4.736522156977213e-07
+    }
+  ],
+  "meta": {
+    "primary_student": "s1_onnx",
+    "teacher_provenance": "fake-provider",
+    "note": "Teacher metrics are fake-provider (lexical-overlap heuristic)."
+  }
+}
